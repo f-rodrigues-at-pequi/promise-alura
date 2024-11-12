@@ -125,11 +125,11 @@ Esta alternativa é correta porque utiliza a função lerConteudoDoArquivo com a
 
 | Aprendizado                                                                                                                                                                        | Novidade? | Aprendi? |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------|----------|
-| Simular a publicação de um projeto, capturando os dados do formulário e utilizando uma função que aleatoriamente retorna sucesso ou erro.                                         | Sim       | Sim      |
+| Simular a publicação de um projeto, capturando os dados do formulário e utilizando uma função que aleatoriamente retorna sucesso ou erro.                                         | Não       | Revisar      |
 | Utilizar um bloco `try...catch` para lidar com os resultados da simulação, exibindo mensagens de sucesso ou erro ao usuário.                                                      | Sim       | Sim      |
-| Usar `async/await` para gerenciar a execução de funções assíncronas, permitindo que o código espere a conclusão da função de publicação.                                          | Sim       | Sim      |
-| Limpar todos os campos de um formulário, restaurar a imagem padrão e limpar a lista de tags, preparando o formulário para um novo uso.                                           | Sim       | Sim      |
-| Restaurar o estado inicial de um formulário, incluindo a imagem e o nome da imagem, utilizando manipulação direta do DOM e reset de formulário.                                  | Sim       | Sim      |
+| Usar `async/await` para gerenciar a execução de funções assíncronas, permitindo que o código espere a conclusão da função de publicação.                                          | Não       | Sim      |
+| Limpar todos os campos de um formulário, restaurar a imagem padrão e limpar a lista de tags, preparando o formulário para um novo uso.                                           | Não       | Revisar      |
+| Restaurar o estado inicial de um formulário, incluindo a imagem e o nome da imagem, utilizando manipulação direta do DOM e reset de formulário.                                  |  Não       | Revisar    |
 
 ## Insights
  - Utilizar try...catch no evento do botão "Publicar" e diferenciar o feedback para o usuário com alert para sucesso e erro.
